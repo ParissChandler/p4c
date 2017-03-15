@@ -3,22 +3,14 @@
   margin: 0;
   padding: 0;
 }
-
+html {
+  font-size: 18px;
+}
 body{
-  background-attachment: fixed;
-  background-image: url(http://www.batmanzano.com/EPRPC/wp-content/uploads/2014/11/BG1.jpg);
-  background-position: center;
+  background: url(http://www.batmanzano.com/EPRPC/wp-content/uploads/2014/11/BG1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: 'Lato', sans-serif;
-  height: 100vh;
-  width: 100vw;
 }
-
-h1, h2, h3, h4 {
-  font-family: 'Adamina', serif;
-}
-
 a {
   text-decoration: none;
 }
@@ -28,7 +20,7 @@ header {
 }
 
 nav{
-  padding: 20px 30px; /*top & bottom 20px, left & right 30px*/
+  padding: 10px 30px; /*top & bottom 20px, left & right 30px*/
 }
 
 li{
@@ -53,32 +45,19 @@ li{
   text-decoration: underline;
 }
 
-#p4p>h1{
-  color: black;
-  margin-top: 35px;
-  margin-left: 381px;
-  font-size: 55px;
+#howTo>h1{
+  margin-top: 20px;
+  margin-left: 580px;
+  font-size: 40px;
   font-family: 'Adamina', serif;
 }
 
-#about{
-  border: 1px;
-  height:300px;
-  width: 70%;
-  margin-top: 245px;
-}
-
-.info,.infoTwo,.infoThree{
+.container{
+  margin-left: 320px;
+  width: 50%;
+  line-height: 2;
+  text-align: center;
   font-family: 'Lato', sans-serif;
-  margin-left: 435px;
-}
-
-.infoFour{
-  margin-left: 550px;
-  margin-top: 40px;
-  font-size: 20px;
-  font-family: 'Lato', sans-serif;
-  font-weight: bolder;
 }
 
 @media (max-width: 960px) {
