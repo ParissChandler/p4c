@@ -9,7 +9,7 @@ html {
 }
 
 body{
-  background: url(http://www.batmanzano.com/EPRPC/wp-content/uploads/2014/11/BG1.jpg);
+  background: url("../media/body-bg.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
