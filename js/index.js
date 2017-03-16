@@ -1,6 +1,7 @@
 $('#navIcon').on('click', function() {
   $('#links').toggleClass('active');
 });
+
 function deselect(e) {
   $('.pop').slideFadeToggle(function() {
     e.removeClass('selected');
