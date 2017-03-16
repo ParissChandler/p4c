@@ -49,3 +49,14 @@ function processInput() {
   var userInput = this.value;
   localStorage.setItem(inputName, userInput);
 }
+
+<?php
+$to      = '';
+$subject = 'the subject';
+$message = 'Preparation';
+$headers = 'From: prepare4conversation.com' . "\r\n" .
+    'Reply-To: prepare4conversation@gmail.com' . "\r\n" .
+    'X-Mailer: PHP/' . phpversion();
+
+mail($to, $subject, $message, $headers);
+?>
