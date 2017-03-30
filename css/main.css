@@ -9,9 +9,8 @@ html {
 }
 
 body{
-  background: url("../media/body-bg.jpg");
+  background: url(http://www.batmanzano.com/EPRPC/wp-content/uploads/2014/11/BG1.jpg);
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
 }
 
@@ -62,15 +61,19 @@ li{
   text-align: justify;
   margin-bottom: 25px;
   line-height: 1.5;
-  font-size: 25px;
+  font-size: 35px;
   font-family: 'Open Sans', sans-serif;
 }
 
 .container {
   border: 1px;
   margin: 0 auto;
-  max-width: 700px;
+  max-width: 900px;
   padding: 20px;
+}
+
+.start-btn{
+  margin-left: 20px;
 }
 
 /*p {
@@ -80,11 +83,7 @@ li{
   font-family: 'Open Sans', sans-serif;
 }*/
 
-.info-width{
-  width: 50%;
-  margin-left: 310px;
-  text-align: center;
-}
+
 
 
 .close{

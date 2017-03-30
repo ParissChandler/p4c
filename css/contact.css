@@ -1,0 +1,80 @@
+body{
+  background-attachment: fixed;
+}
+
+.close{
+  color:black;
+}
+a.selected {
+  background-color:#1F75CC;
+  color:white;
+  z-index:100;
+}
+#new_message{
+  width: 30%;
+}
+#email{
+  width: 350%;
+}
+#body{
+  width: 310%;
+}
+
+.messagepop {
+  background-color:#FFFFFF;
+  border:1px solid #999999;
+  border-radius: 5px;
+  cursor:default;
+  width:354px;
+  z-index:50;
+  padding: 25px 25px 20px;
+  margin-left: 670px;
+  margin-top: -480px;
+}
+
+label {
+  width: 250%;
+  display: block;
+  margin-bottom: 3px;
+  padding-left: 15px;
+  text-indent: -15px;
+}
+
+.messagepop p, .messagepop.div {
+  border-bottom: 1px solid #EFEFEF;
+  margin: 8px 0;
+  padding-bottom: 0px;
+}
+
+
+
+@media (max-width: 960px) {
+  nav {
+    padding: 28px 30px;
+  }
+
+  .nav-icon {
+    background: linear-gradient(to bottom, #fff 0%, #fff 20%, transparent 20%, transparent 40%, #fff 40%, #fff 60%, transparent 60%, transparent 80%, #fff 80%, #fff 100%);
+    cursor: pointer;
+    display: block;
+    height: 22px;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    width: 25px;
+  }
+
+  .links {
+    display: none;
+    margin-top: 40px;
+  }
+
+  .link {
+    border-bottom: 2px solid #fff;
+    padding: 15px 10px;
+  }
+
+  .links.active {
+    display: block;
+  }
+}

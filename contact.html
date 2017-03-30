@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/story.css">
+    <link rel="stylesheet" href="css/contact.css">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed|Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Adamina|Lato:400,400i,700,900" rel="stylesheet">
-    <title></title>
+    <title>Contact</title>
   </head>
   <body>
     <header>
@@ -24,14 +24,22 @@
         </ul>
       </nav>
     </header>
-    <section class="container">
-      <h2> My Story | </h2>
-      <h2> Their Story </h2>
-      <p>Do you have a previous personal relationship with the other side?</p>
-      <a href="begin-preparation.html" class="button">Yes</a>
-      <a href="clicked-no.html" class="button">No</a>
+
+    <section>
+      <div class="container">
+        <div class="messagepop pop">
+          <form method="post" id="new_message" action="https://formspree.io/prepare4conversation@gmail.com">
+            <p><label>Contact Us/Feedback</label></p>
+            <p><label for="email">Your email</label><input type="text" size="30" name="email" id="email" /></p>
+            <p><label for="body">Message</label><textarea rows="6" name="body" id="body" cols="35"></textarea></p>
+            <p><input type="submit" value="Send Message" name="commit" id="message_submit"/> or <a class="close" href="/">Cancel</a></p>
+          </form>
+        </div>
+      </div>
     </section>
-    <script src="js/jquery-3.1.1.min.js"></script>
-    <script type="text/javascript" src="js/story.js"></script>
+
+    <script
+  src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
   </body>
 </html>
