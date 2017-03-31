@@ -1,27 +1,7 @@
+.tips li {
+  padding-bottom: 25px;
+}
+
 .second-best{
   text-decoration: underline;
-}
-
-.one{
-  font-weight: 600;
-}
-
-strong {
-  font-size: 20px;
-}
-.container>p{
-  line-height: 1.4;
-  margin-bottom: 25px;
-  font-family: 'Lato', sans-serif;
-  padding: 10px;
-}
-.container{
-  border: 1px;
-  margin: 0 auto;
-  max-width: 750px;
-}
-.container>h1{
-  text-align: center;
-  font-size: 40px;
-  font-family: 'Adamina', serif;
 }

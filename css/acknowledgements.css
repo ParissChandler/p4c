@@ -1,19 +1,13 @@
-
-.ap h1 {
-  text-align: center;
+.info {
+  line-height: 2;
+  text-align: left;
 }
 
-.ap p {
-  font-size: 18px;
-  font-family: 'Lato', sans-serif;
-  line-height: 2.5;
-}
-
-.letter-body,
-.salutation {
-  margin-bottom: 20px;
+.wiki-link {
+  color: #4285F4;
 }
 
 .sincerely {
+  margin-bottom: 10px;
   text-align: right;
 }

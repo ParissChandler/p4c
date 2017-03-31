@@ -1,14 +1,11 @@
-#howTo>h1{
-  margin-top: 20px;
-  margin-left: 580px;
-  font-size: 40px;
-  font-family: 'Adamina', serif;
+.info {
+  text-align: left;
 }
 
-.container{
-  margin-left: 320px;
-  width: 50%;
-  line-height: 2;
-  text-align: left;
-  font-family: 'Lato', sans-serif;
+.disclaimer-header, .disclaimer {
+  margin-bottom: 20px;
+}
+
+.disclaimer{
+  padding-left: 40px;
 }
