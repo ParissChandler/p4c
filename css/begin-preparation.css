@@ -11,6 +11,11 @@ p{
 padding: 20px;
 }
 
+iframe{
+  border: none;
+  height: 100vh;
+  width: 100vw;
+}
 
 .name-prep{
   border: 1px solid black;
