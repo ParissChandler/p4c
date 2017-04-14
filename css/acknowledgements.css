@@ -1,105 +1,13 @@
-*, ::after, ::before {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+.info {
+  line-height: 2;
+  text-align: left;
 }
 
-html {
-  font-size: 18px;
+.wiki-link {
+  color: #4285F4;
 }
 
-body{
-  background: url(http://www.batmanzano.com/EPRPC/wp-content/uploads/2014/11/BG1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-a {
-  text-decoration: none;
-}
-
-header {
-  background-color: #000;
-}
-
-nav{
-  padding: 10px 30px; /*top & bottom 20px, left & right 30px*/
-}
-
-li{
-  list-style: none;
-}
-
-.nav-icon {
-  display: none;
-}
-
-.links {
-  align-items: center; /*y-axis*/
-  display: flex;
-  justify-content: space-between; /*x-axis*/
-}
-
-.link a {
-  color: #fff;
-}
-
-.link a:hover {
-  text-decoration: underline;
-}
-#acknowledge>h1{
-  margin-top: 60px;
-  margin-left: 476px;
-  font-size: 40px;
-  font-family: 'Adamina', serif;
-}
-#aP>.aPOne{
-  margin-left: 450px;
-  font-size: 20px;
-  font-family: 'Lato', sans-serif;
-}
-#aP{
-  margin-left: 250px;
-  height:500px;
-  width:60%;
-}
-#aP>p{
-  font-size: 18px;
-  font-family: 'Lato', sans-serif;
-  text-align: center;
-  line-height: 2.5;
-}
-.aPNine,.aPTen{
-  font-size: 20px;
-  font-family: 'Lato', sans-serif;
-  text-align: center;
-}
-@media (max-width: 960px) {
-  nav {
-    padding: 28px 30px;
-  }
-
-  .nav-icon {
-    background: linear-gradient(to bottom, #fff 0%, #fff 20%, transparent 20%, transparent 40%, #fff 40%, #fff 60%, transparent 60%, transparent 80%, #fff 80%, #fff 100%);
-    cursor: pointer;
-    display: block;
-    height: 22px;
-    position: absolute;
-    right: 30px;
-    top: 20px;
-    width: 25px;
-  }
-
-  .links {
-    display: none;
-    margin-top: 40px;
-  }
-
-  .link {
-    border-bottom: 2px solid #fff;
-    padding: 15px 10px;
-  }
-
-  .links.active {
-    display: block;
-  }
+.sincerely {
+  margin-bottom: 10px;
+  text-align: right;
 }

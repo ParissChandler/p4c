@@ -6,9 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/acknowledgements.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed|Open+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Adamina|Lato:400,400i,700,900" rel="stylesheet">
-  <title>Acknowledgements</title>
+  <title>Contact</title>
 </head>
 
 <body>
@@ -24,16 +25,21 @@
       </ul>
     </nav>
   </header>
-  <section class="main-content">
+  <section class="main-content center">
     <div class="container">
-      <h1>Acknowledgements</h1>
-      <p class="info">Dear Users,</p>
-      <p class="info">This website is inspired by a theory from the book, <a class="wiki-link" href="https://en.wikipedia.org/wiki/Getting_to_Yes">"Getting to Yes"</a>, by Roger Fisher and William L. Ury. And, "Difficult Conversations" by Douglas Stone, Bruce Patton and Sheila Heen. Foreword
-        by Roger Fisher.I would like to acknowledge Carri Hulet and Toby Berkman. As my lecturers for the course,"Negotiation and Dispute Mediation" at Harvard Law School, they encouraged me and took the time to advise regarding the creation of the website.
-        I would like to thank Resilient Coders for helping develop and design this website. Special thanks to Pariss Chandler, who was in charge. I hope you will find much value in this website and will commit by practice what you learn to whatever challenging
-        conversation you do.</p>
-      <p class="sincerely">Sincerely,</p>
-      <p class="sincerely">Chen Geffen Shalev</p>
+        <h1>Contact Us</h1>
+        <form class="contact" method="post" id="new_message" action="https://formspree.io/prepare4conversation@gmail.com">
+          <div class="form-group">
+            <label for="email">Your Email:</label>
+            <input type="text" size="30" name="email" id="email" />
+          </div>
+          <div class="form-group">
+            <label for="body">Message: </label>
+            <textarea rows="8" name="body" id="body" cols="35"></textarea>
+          </div>
+          <input class="btn-blue" type="submit" value="Send Message" name="commit" id="message_submit" />
+        </form>
+      </div>
     </div>
   </section>
   <script src="js/jquery-3.1.1.min.js"></script>

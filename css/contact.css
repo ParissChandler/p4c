@@ -1,0 +1,21 @@
+.contact label {
+  display: block;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group input {
+  padding: 5px;
+  width: 100%;
+}
+
+.contact textarea {
+  padding: 10px;
+}
+
+.btn-blue {
+  border: none;
+  color: #FFF;
+}
