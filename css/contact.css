@@ -1,3 +1,7 @@
+h1{
+  padding-top: 3%;
+}
+
 .contact label {
   display: block;
 }
@@ -8,7 +12,7 @@
 
 .form-group input {
   padding: 5px;
-  width: 100%;
+  width: 58%;
 }
 
 .contact textarea {

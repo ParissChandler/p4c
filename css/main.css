@@ -9,7 +9,7 @@ html {
 }
 
 body{
-  background-color: #000;
+  background-color: #d1c6b5;
   background-repeat: no-repeat;
   background-size: cover;
   color: #FFF;
@@ -33,7 +33,7 @@ a:visited {
 }
 
 header {
-  background-color: #4285F4;
+  background-color: black;
   width: 100vw;
 }
 
@@ -72,6 +72,8 @@ nav li{
   text-align: center;
   margin-bottom: 30px;
   font-family: 'Open Sans', sans-serif;
+
+
 }
 
 .container {
@@ -91,6 +93,14 @@ nav li{
   width: 100vw;
 }
 
+img{
+  display: block;
+  height: 250px;
+  width: 50%;
+  margin-left: 25%;
+  margin-bottom: 5%;
+}
+
 .logo {
   display: block;
   margin: 0 auto;
@@ -98,7 +108,8 @@ nav li{
 }
 
 .btn-blue {
-  background-color: #4285F4;
+  color: white;
+  background-color: black;
   padding: 10px 18px;
 }
 
@@ -140,6 +151,10 @@ nav li{
 @media (max-width: 480px) {
   html {
     font-size: 16px;
+  }
+
+  img{
+    display: none;
   }
 
   h1 {
