@@ -55,6 +55,7 @@ nav li{
 
 .links {
   align-items: center; /*y-axis*/
+  -js-display: flex;
   display: flex;
   justify-content: space-between; /*x-axis*/
 }
@@ -85,6 +86,7 @@ nav li{
 }
 
 .main-content.center {
+  -js-display: flex;
   display: flex;
   height: 85vh;
   margin-top: 0;
@@ -117,14 +119,13 @@ img{
   }
 
   .nav-icon {
-    background: linear-gradient(to bottom, #fff 0%, #fff 20%, transparent 20%, transparent 40%, #fff 40%, #fff 60%, transparent 60%, transparent 80%, #fff 80%, #fff 100%);
     cursor: pointer;
     display: block;
-    height: 22px;
+    height: auto;
     position: absolute;
     right: 30px;
     top: 16px;
-    width: 25px;
+    width: 35px;
   }
 
   .links {
