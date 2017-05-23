@@ -1,9 +1,11 @@
 .info {
   text-align: left;
+  color: black;
 }
 
 .disclaimer-header, .disclaimer {
   margin-bottom: 20px;
+  color: black;
 }
 
 .disclaimer{
