@@ -1,7 +1,26 @@
 .tips li {
   padding-bottom: 25px;
+  color: black;
 }
 
 .second-best{
   text-decoration: underline;
+}
+@media (max-width: 480px) {
+  html {
+    font-size: 16px;
+  }
+
+  img{
+    display: none;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+}
+@media (max-width:375px){
+  .tips li{
+    margin-left: 30px;
+  }
 }
